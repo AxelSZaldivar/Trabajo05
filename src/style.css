@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(8, 85, 161);
+    background-image: url("tareas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    margin: 15px;
+}
+
+.card{
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.todo-finished {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.list-group-item{
+    background-color: lightblue;
+    margin: 9px;
+}
